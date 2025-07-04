@@ -28,7 +28,7 @@ The project focuses on identifying surge patterns based on date, discount percen
   R² Score: 0.87
 
 
-  ## Interpretation
+## Interpretation
 
 These findings can support:
 - Better **dynamic pricing strategies** by identifying when and where price surges typically occur.
