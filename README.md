@@ -2,13 +2,11 @@
 
 This project is a machine learning pipeline designed to detect and analyze **price surge patterns** using simulated data. It was created as part of a mini project to demonstrate proficiency in data preprocessing, feature engineering, model building, and evaluation.
 
----
 
 ## Project Objective
 
 To build an end-to-end pipeline that predicts whether a **price surge** will occur based on various transactional and demand-related features.
 
----
 
 ## Skills Demonstrated
 
@@ -17,7 +15,6 @@ To build an end-to-end pipeline that predicts whether a **price surge** will occ
 - **Evaluation**: Compared model performance using accuracy, precision, recall, and F1-score. Tuned hyperparameters for improved generalization.
 - **Interpretability**: Analyzed feature importances to explain model behavior and business relevance.
 
----
 
 ## Tech Stack
 
@@ -25,7 +22,6 @@ To build an end-to-end pipeline that predicts whether a **price surge** will occ
 - **Libraries**: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
 - **Approach**: Supervised binary classification
 
----
 
 ## Key Learnings
 
@@ -33,10 +29,8 @@ To build an end-to-end pipeline that predicts whether a **price surge** will occ
 - Understood the impact of class imbalance and how to mitigate it through modeling strategy.
 - Improved ability to explain model results to both technical and non-technical audiences.
 
----
 
 ## Notebook
 
 The full implementation, from data generation to final model evaluation, can be found in the [`mpp2.ipynb`](./mpp2.ipynb) notebook.
 
----
