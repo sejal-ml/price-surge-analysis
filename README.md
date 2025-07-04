@@ -5,7 +5,8 @@ This project is a machine learning pipeline designed to detect and analyze **pri
 
 ## Project Objective
 
-To build an end-to-end pipeline that predicts whether a **price surge** will occur based on various transactional and demand-related features.
+To analyze and predict price surge behavior in the instant product delivery sector using simulated data representing platforms like Blinkit, Zomato, and Zepto.
+The project focuses on identifying surge patterns based on date, discount percentage, platform, and categorical product features, and building a regression model to predict the final price under surge conditions.
 
 
 ## Skills Demonstrated
@@ -16,6 +17,25 @@ To build an end-to-end pipeline that predicts whether a **price surge** will occ
 - **Interpretability**: Analyzed feature importances to explain model behavior and business relevance.
 
 
+## Observations & Insights
+
+- **Surge patterns** are more prominent during **weekends and festival days**.
+- A **7-day rolling average** helped smooth out short-term fluctuations and reveal long-term trends in final pricing.
+- The platform with the **highest price spike** was highlighted using peak annotation in the trend chart.
+- **Random Forest Regressor** was used to predict final prices with the following metrics:
+  Mean Absolute Error (MAE): 22.00
+  Root Mean Squared Error (RMSE): 30.45
+  R² Score: 0.87
+
+
+  ## Interpretation
+
+These findings can support:
+- Better **dynamic pricing strategies** by identifying when and where price surges typically occur.
+- Enhanced **transparency** for customers by anticipating price changes.
+- Smarter **demand forecasting** by recognizing patterns in pricing data over time.
+
+
 ## Tech Stack
 
 - **Language**: Python (Jupyter Notebook)
@@ -23,14 +43,7 @@ To build an end-to-end pipeline that predicts whether a **price surge** will occ
 - **Approach**: Supervised binary classification
 
 
-## Key Learnings
-
-- Gained hands-on experience simulating and modeling real-world-like business problems.
-- Understood the impact of class imbalance and how to mitigate it through modeling strategy.
-- Improved ability to explain model results to both technical and non-technical audiences.
-
-
 ## Notebook
 
-The full implementation, from data generation to final model evaluation, can be found in the [`mpp2.ipynb`](./mpp2.ipynb) notebook.
-
+The full implementation, from data loading to final model evaluation, can be found in the [`mpp2.ipynb`](./mpp2.ipynb) notebook.
+Check out the notbook for visualizations.
