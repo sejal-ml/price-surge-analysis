@@ -1,4 +1,4 @@
-# Price Surge Detection using Simulated Data (Mini ML Project)
+# Price Surge Detection (Mini ML Project)
 
 This project is a machine learning pipeline designed to detect and analyze **price surge patterns** using simulated data. It was created as part of a mini project to demonstrate proficiency in data preprocessing, feature engineering, model building, and evaluation.
 
